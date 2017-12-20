@@ -1,0 +1,31 @@
+<modelleertaal>
+<modelregels>
+'model 13 raket, verticale lancering
+'modelregels
+Fwr = k * v^2
+Fres = Fmotor - Fzw - teken(v)*Fwr
+a = Fres/m
+dv = a * dt
+v = v + dv
+dy = v * dt
+y = y + dy
+t = t + dt
+als t >= te dan Fmotor = 0 eindals
+als y < 0 dan stop eindals
+
+</modelregels>
+<startwaarden>
+'startwaarden
+m = 2,5*10^3 'kg
+g = 9,81 'm/s^2
+Fzw = m * g
+Fmotor = 40*10^3 'N
+k = 1,0 'kg/m
+y = 0 'm
+v = 0 'm/s
+dt = 0,1 's
+t = 0 's
+te = 40 's
+
+</startwaarden>
+</modelleertaal>

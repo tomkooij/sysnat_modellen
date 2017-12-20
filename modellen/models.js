@@ -9,6 +9,7 @@ var model_index = [
     {url:'modellen/Model W1 incompleet.xml', title: 'Model W1 (incompleet)'},
     {url:'modellen/Model 5 optrekken auto.xml', title: 'Model 5 optrekken auto'},
     {url:'modellen/parachutesprong.xml', title: 'Model 9 Parachutesprong'},
+    {url:'modellen/Model 13 Raket.xml', title: 'Model 13 Raket. Verticale lancering'},
     {url:'modellen/Model 15 Basketbal.xml', title: 'Model 15 Basketbal (incompleet)'},
     {url:'modellen/Model 17 Satelliet.xml', title: 'Model 17 Satelliet'},
 ];
