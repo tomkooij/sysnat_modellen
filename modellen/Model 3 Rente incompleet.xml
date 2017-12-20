@@ -1,0 +1,10 @@
+<model>
+<startwaarden>
+'Vul hieronder nog drie startwaarden in
+dt := 1
+</startwaarden>
+<modelregels>
+db = r * b
+b := b + db
+t := t + dt
+</modelregels>

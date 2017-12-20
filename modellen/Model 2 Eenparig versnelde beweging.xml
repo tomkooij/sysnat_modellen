@@ -1,0 +1,16 @@
+<model>
+<startwaarden>
+a = 0,50 'm/s^2
+v = 0 'm/s
+s = 0 'm
+t := 0 's
+dt := 1,0 's
+
+</startwaarden>
+<modelregels>
+dv = a * dt
+v = v + dv
+ds = v * dt
+s := s + ds
+t := t + dt
+</modelregels>

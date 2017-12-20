@@ -1,0 +1,14 @@
+<model>
+<startwaarden>
+storting = 100 'euro
+r = 0,050 '= 5,0%
+b := 1000 'euro
+t := 0
+dt := 1
+
+</startwaarden>
+<modelregels>
+db = r * b + storting
+b := b + db
+t := t + dt
+</modelregels>
