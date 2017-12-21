@@ -1,0 +1,27 @@
+<modelleertaal>
+<modelregels>
+'model 6 optrekken auto met luchtweerstand
+'modelregels
+Fwr= k * v^2
+Fres= Fmotor - Fwr
+a = Fres/m
+dv = a * dt
+v = v + dv
+ds = v * dt
+s = s + ds
+t = t + dt
+</modelregels>
+<startwaarden>
+'startwaarden
+cw = 0,30
+rho = 1,29 'kg/m^3
+A = 1,8 'm^2
+k = cw * rho * A/2
+Fmotor = 500 'N
+m = 800 'kg
+dt = 1,0 's
+v = 0 'm/s
+s = 0 'm
+t = 0 's
+</startwaarden>
+</modelleertaal>

@@ -8,7 +8,7 @@ var model_index = [
   {url:'modellen/Model W1 incompleet.xml', title: 'Opgave 2: Model W1 (incompleet)'},
   {url:'modellen/Model 2 Eenparig versnelde beweging.xml', title:  'Opgave 3: Model 2 Eenparig versnelde beweging'},
 // par 5.2
-  {url:'modellen/Model 6.xml', title: 'Opgave 4: Model 6 ONTBREEKT'},
+  {url:'modellen/Model 6 Optrekken met luchtweerstand.xml', title: 'Opgave 4: Model 6 Optrekken met luchtweerstand'},
   {url:'modellen/Model 9 Parachutesprong.xml', title: 'Opgave 5: Model 9 Parachutesprong'},
   {url:'modellen/Model W3.xml', title: 'Opgave 5: Model W3 ONTBREEKT'},
   {url:'modellen/Model 10 Harmonische trilling.xml', title: 'Opgave 6: Model 10 Harmonische trilling'},
