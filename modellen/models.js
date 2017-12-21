@@ -1,15 +1,26 @@
 // definieer hier de modellen
 
 var model_index = [
-    {url:'modellen/Model 1 Constante snelheid.xml', title: 'Model 1 Constante snelheid'},
-    {url:'modellen/Model 2 Eenparig versnelde beweging.xml', title: 'Model 2 Eenparig versnelde beweging'},
-    {url:'modellen/Model 3 Rente incompleet.xml', title: 'Model 3 Rente (incompleet)'},
-    {url:'modellen/Model 3 Rente compleet.xml', title: 'Model 3 Rente (compleet)'},
-    {url:'modellen/Model W1 compleet.xml', title: 'Model W1 (compleet)'},
-    {url:'modellen/Model W1 incompleet.xml', title: 'Model W1 (incompleet)'},
-    {url:'modellen/Model 5.xml', title: 'Model 5 optrekken auto'},
-    {url:'modellen/parachutesprong.xml', title: 'Model 9 Parachutesprong'},
-    {url:'modellen/Model 13 Raket.xml', title: 'Model 13 Raket. Verticale lancering'},
-    {url:'modellen/Model 15 Basketbal incompleet.xml', title: 'Model 15 Basketbal (incompleet)'},
-    {url:'modellen/Model 17 Satelliet.xml', title: 'Model 17 Satelliet'},
+// par 5.1
+  {url:'modellen/Model 3 Rente incompleet.xml', title: 'Opgave 1: Model 3 Rente (incompleet)'},
+  {url:'modellen/Model 3 Rente compleet.xml', title: 'Opgave 1: Model 3 Rente (compleet)'},
+  {url:'modellen/Model W1 compleet.xml', title: 'Opgave 2: Model W1 (compleet)'},
+  {url:'modellen/Model W1 incompleet.xml', title: 'Opgave 2: Model W1 (incompleet)'},
+  {url:'modellen/Model 2 Eenparig versnelde beweging.xml', title:  'Opgave 3: Model 2 Eenparig versnelde beweging'},
+// par 5.2
+  {url:'modellen/Model 6.xml', title: 'Opgave 4: Model 6 ONTBREEKT'},
+  {url:'modellen/Model 9 Parachutesprong.xml', title: 'Opgave 5: Model 9 Parachutesprong'},
+  {url:'modellen/Model W3.xml', title: 'Opgave 5: Model W3 ONTBREEKT'},
+  {url:'modellen/Model 10 Harmonische trilling.xml', title: 'Opgave 6: Model 10 Harmonische trilling'},
+// par 5.3
+  {url:'modellen/Model 11 Tennisbal.xml', title: 'Opgave 7: Model 11 Tennisbal'},
+  {url:'modellen/Model 15 Basketbal incompleet.xml', title: 'Opgave 8: Model 15 Basketbal (incompleet)'},
+  {url:'modellen/Model 13 Raket.xml', title: 'Opgave 9: Model 13 Raket. Verticale lancering'},
+  {url:'modellen/Model 16 Raket incompleet.xml', title: 'Opgave 10: Model 16 Raket (incompleet).'},
+// par 5.4
+  {url:'modellen/Model 17 Satelliet.xml', title: 'Opgave 11-13: Model 17 Satelliet'},
+// rest
+  {url:'', title: '----EXTRA----'},
+  {url:'modellen/Model 1 Constante snelheid.xml', title: 'Model 1 Constante snelheid'},
+  {url:'modellen/Model 5.xml', title: 'Model 5 optrekken auto'},
 ];

@@ -1,0 +1,30 @@
+<modelleertaal>
+<modelregels>
+'model 11 tennisbal
+'modelregels
+dx = vx * dt
+x = x + dx
+Fres = -Fzw
+ay = Fres/m
+dvy = ay * dt
+vy = vy + dvy
+dy = vy * dt
+y = y + dy
+als y < 0 dan stop eindals
+t = t + dt
+</modelregels>
+<startwaarden>
+'startwaarden
+m = 0,060 'kg
+g = 9,81 'm/s^2
+Fzw = m * g
+x = 0 'm
+y = 1,5 'm
+v = 20 'm/s
+alfa = 15 '°
+vx = v * cos(alfa)
+vy = v * sin(alfa)
+dt = 0,001 's
+t = 0 's
+</startwaarden>
+</modelleertaal>

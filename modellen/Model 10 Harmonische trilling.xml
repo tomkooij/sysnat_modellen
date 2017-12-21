@@ -1,0 +1,17 @@
+<modelleertaal>
+<modelregels>
+'model 10 harmonische trilling
+'modelregels
+Fveer = -C * y
+Fres = Fveer
+a = Fres / m
+dv = a * dt
+v = v + dv
+dy = v * dt
+y = y + dy
+t = t + dt
+</modelregels>
+<startwaarden>
+'startwaarden nog in te vullen
+</startwaarden>
+</modelleertaal>
