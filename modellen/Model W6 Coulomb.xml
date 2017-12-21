@@ -1,0 +1,35 @@
+<modelleertaal>
+<modelregels>
+'opgave 13 Model W6 Coulomb
+r = sqrt(x^2 + y^2)
+Fc = ... 'vul aan
+Fresx = ... 'vul aan
+ax = Fresx / ms
+dvx = ax * dt
+vx = vx + dvx
+dx = vx * dt
+x = x + dx
+Fresy = ...'vul aan
+ay = Fresy / ms
+dvy = ay * dt
+vy = vy + dvy
+dy = vy * dt
+y = y + dy
+t = t + dt
+</modelregels>
+<startwaarden>
+'model 17 satelliet
+'startwaarden
+f = 9e9 'Nm^2C-^2
+e = 1,602e-19 'C
+Q = e
+q = e
+m = 9,1e-31 'kg
+dt = 1e-18 's
+t = 0 's
+x = 0 'm
+y = 5,3e-11 'm
+vx = 2,2e6 'm/s
+vy = 0 'm/s
+</startwaarden>
+</modelleertaal>
